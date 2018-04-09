@@ -47,7 +47,7 @@ class App extends Component {
     let name = 'Alex'   
     return (
       <div className="App">                
-          <h1>Welcome {name}</h1>
+          <h1 style={{...defaultStyle, 'font-size': '54px'}}>Welcome {name}</h1>
           <Aggregate/>
           <Aggregate/>
           <Filter/>
